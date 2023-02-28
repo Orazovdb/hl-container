@@ -1,0 +1,21 @@
+.dashboard-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 74px;
+  padding: 20px 40px;
+  gap: 33px;
+  &__left {
+    flex: 1 1 auto;
+  }
+
+  &__text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: #363853;
+  }
+
+  &__right {
+  }
+}

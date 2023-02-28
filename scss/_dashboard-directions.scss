@@ -1,0 +1,103 @@
+.dashboard-directions {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    &__left {
+        padding-right: 30px;
+        border-right: 1px solid rgba(20, 80, 157, 0.2);
+    }
+
+    &__top {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        color: #666c76;
+    }
+
+    &__text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 120%;
+        color: #363853;
+    }
+
+    &__table {
+        border: 0.4px solid rgba(20, 80, 157, 0.2);
+        border-radius: 8px;
+        table {
+            border-radius: 8px;
+            border-collapse: collapse;
+            thead {
+                background: rgba(47, 128, 237, 0.08);
+                tr {
+                    th {
+                        text-align: left;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: calc(18 / 14) * 100%;
+                        color: #363853;
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    border-bottom: 0.4px solid rgba(20, 80, 157, 0.2);
+                    td {
+                        text-align: left !important;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: calc(18 / 14) * 100%;
+                        color: #363853;
+                    }
+                }
+            }
+            tfoot {
+                tr {
+                    td {
+                        padding: 11px 20px;
+                        &:last-child {
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__right {
+        padding-left: 30px;
+    }
+
+    &__icon {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        cursor: pointer;
+    }
+
+    &__content-p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+        color: #363853;
+        margin-bottom: 4px;
+    }
+
+    &__content-p-bold {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 120%;
+        color: #363853;
+        &:not(:last-child) {
+            margin-bottom: 4px;
+        }
+    }
+}

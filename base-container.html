@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Hazar logistika</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="dashboard">
+        <div class="dashboard__sidebar sidebar">
+          <div class="sidebar__container">
+            <button class="sidebar__open-close">
+              <img src="img/sidebar/open-close-sidebar.svg" alt="" />
+            </button>
+            <div class="sidebar__logo mb-5">
+              <img src="img/sidebar/logo-big.svg" alt="logo" />
+            </div>
+            <div class="sidebar__logo-mini mb-5">
+              <img src="img/sidebar/logo-mini.svg" alt="logo" />
+            </div>
+            <nav class="sidebar__menu">
+              <ul class="sidebar__list">
+                <li class="sidebar__item">
+                  <div class="sidebar__icon">
+                    <img src="img/sidebar/01.svg" alt="" />
+                  </div>
+                  <div class="sidebar__text">Дашборд</div>
+                </li>
+                <li class="sidebar__item">
+                  <div class="sidebar__icon">
+                    <img src="img/sidebar/02.svg" alt="" />
+                  </div>
+                  <div class="sidebar__text">контейнер</div>
+                </li>
+                <div class="sidebar__item-wrapper">
+                  <li class="sidebar__item">
+                    <div class="sidebar__icon">
+                      <img src="img/sidebar/03.svg" alt="" />
+                    </div>
+                    <div class="sidebar__text">База</div>
+                    <div class="sidebar__arrow">
+                      <img src="img/sidebar/righ.svg" alt="icon" />
+                    </div>
+                  </li>
+                  <ul class="sidebar__sub-list">
+                    <li class="sidebar__sub-item">
+                      <div class="sidebar__sub-icon">
+                        <img src="img/sidebar/04.svg" alt="" />
+                      </div>
+                      <p class="sidebar__sub-text">Salam</p>
+                    </li>
+                    <li class="sidebar__sub-item">
+                      <div class="sidebar__sub-icon">
+                        <img src="img/sidebar/04.svg" alt="" />
+                      </div>
+                      <p class="sidebar__sub-text">Salam</p>
+                    </li>
+                    <li class="sidebar__sub-item">
+                      <div class="sidebar__sub-icon">
+                        <img src="img/sidebar/04.svg" alt="" />
+                      </div>
+                      <p class="sidebar__sub-text">Salam</p>
+                    </li>
+                    <li class="sidebar__sub-item">
+                      <div class="sidebar__sub-icon">
+                        <img src="img/sidebar/04.svg" alt="" />
+                      </div>
+                      <p class="sidebar__sub-text">Salam</p>
+                    </li>
+                  </ul>
+                </div>
+                <li class="sidebar__item">
+                  <div class="sidebar__icon">
+                    <img src="img/sidebar/04.svg" alt="" />
+                  </div>
+                  <div class="sidebar__text">История</div>
+                </li>
+                <div class="sidebar__item-wrapper">
+                  <li class="sidebar__item">
+                    <div class="sidebar__icon">
+                      <img src="img/sidebar/05.svg" alt="" />
+                    </div>
+                    <div class="sidebar__text">Корзина</div>
+                    <div class="sidebar__arrow">
+                      <img src="img/sidebar/righ.svg" alt="icon" />
+                    </div>
+                  </li>
+                  <ul class="sidebar__sub-list">
+                    <li class="sidebar__sub-item">
+                      <div class="sidebar__sub-icon">
+                        <img src="img/sidebar/04.svg" alt="" />
+                      </div>
+                      <p class="sidebar__sub-text">Salam</p>
+                    </li>
+                    <li class="sidebar__sub-item">
+                      <div class="sidebar__sub-icon">
+                        <img src="img/sidebar/04.svg" alt="" />
+                      </div>
+                      <p class="sidebar__sub-text">Salam</p>
+                    </li>
+                    <li class="sidebar__sub-item">
+                      <div class="sidebar__sub-icon">
+                        <img src="img/sidebar/04.svg" alt="" />
+                      </div>
+                      <p class="sidebar__sub-text">Salam</p>
+                    </li>
+                    <li class="sidebar__sub-item">
+                      <div class="sidebar__sub-icon">
+                        <img src="img/sidebar/04.svg" alt="" />
+                      </div>
+                      <p class="sidebar__sub-text">Salam</p>
+                    </li>
+                  </ul>
+                </div>
+              </ul>
+            </nav>
+            <div class="sidebar__bottom">
+              <div class="sidebar__icon-left">
+                <img src="img/sidebar/back.svg" alt="" />
+              </div>
+              <div class="sidebar__bottom-content">
+                <p>Begench Muhammetberdiyew</p>
+                <p>Admin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dashboard__dashboard">
+          <div class="dashboard__header dashboard-header">
+            <div class="dashboard-header__left">
+              <div class="flex gap-20 flex-y-center">
+                <p class="dashboard-header__text">База / Размер контейнер</p>
+              </div>
+            </div>
+            <div class="dashboard-header__right">
+              <button class="d-button">
+                <p>Добавить</p>
+                <p><img src="img/dashboard/header/add.svg" alt="add" /></p>
+              </button>
+            </div>
+          </div>
+          <div class="dashboard__body">
+            <div class="dashboard__table">
+              <table>
+                <thead>
+                  <tr class="tal">
+                    <th>№</th>
+                    <th>Размер</th>
+                    <th>More</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>40</td>
+                    <td>
+                      <div class="dashboard__table-more">
+                        <div>
+                          <img src="img/dashboard/more.svg" alt="more" />
+                        </div>
+                        <div class="pop-up-table-more">
+                          <div
+                            class="pop-up-table-more__item flex flex-y-center gap-10"
+                          >
+                            <p>
+                              <img
+                                src="img/dashboard/delete.svg"
+                                alt="delete"
+                              />
+                            </p>
+                            <p>Удалить</p>
+                          </div>
+                          <div class="pop-up-table-more__item flex gap-10">
+                            <p>
+                              <img src="img/dashboard/edit.svg" alt="edit" />
+                            </p>
+                            <p>Редактировать</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>40</td>
+                    <td>
+                      <div class="dashboard__table-more">
+                        <div>
+                          <img src="img/dashboard/more.svg" alt="more" />
+                        </div>
+                        <div class="pop-up-table-more">
+                          <div
+                            class="pop-up-table-more__item flex flex-y-center gap-10"
+                          >
+                            <p>
+                              <img
+                                src="img/dashboard/delete.svg"
+                                alt="delete"
+                              />
+                            </p>
+                            <p>Удалить</p>
+                          </div>
+                          <div class="pop-up-table-more__item flex gap-10">
+                            <p>
+                              <img src="img/dashboard/edit.svg" alt="edit" />
+                            </p>
+                            <p>Редактировать</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>40</td>
+                    <td>
+                      <div class="dashboard__table-more">
+                        <div>
+                          <img src="img/dashboard/more.svg" alt="more" />
+                        </div>
+                        <div class="pop-up-table-more">
+                          <div
+                            class="pop-up-table-more__item flex flex-y-center gap-10"
+                          >
+                            <p>
+                              <img
+                                src="img/dashboard/delete.svg"
+                                alt="delete"
+                              />
+                            </p>
+                            <p>Удалить</p>
+                          </div>
+                          <div class="pop-up-table-more__item flex gap-10">
+                            <p>
+                              <img src="img/dashboard/edit.svg" alt="edit" />
+                            </p>
+                            <p>Редактировать</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>40</td>
+                    <td>
+                      <div class="dashboard__table-more">
+                        <div>
+                          <img src="img/dashboard/more.svg" alt="more" />
+                        </div>
+                        <div class="pop-up-table-more">
+                          <div
+                            class="pop-up-table-more__item flex flex-y-center gap-10"
+                          >
+                            <p>
+                              <img
+                                src="img/dashboard/delete.svg"
+                                alt="delete"
+                              />
+                            </p>
+                            <p>Удалить</p>
+                          </div>
+                          <div class="pop-up-table-more__item flex gap-10">
+                            <p>
+                              <img src="img/dashboard/edit.svg" alt="edit" />
+                            </p>
+                            <p>Редактировать</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>40</td>
+                    <td>
+                      <div class="dashboard__table-more">
+                        <div>
+                          <img src="img/dashboard/more.svg" alt="more" />
+                        </div>
+                        <div class="pop-up-table-more">
+                          <div
+                            class="pop-up-table-more__item flex flex-y-center gap-10"
+                          >
+                            <p>
+                              <img
+                                src="img/dashboard/delete.svg"
+                                alt="delete"
+                              />
+                            </p>
+                            <p>Удалить</p>
+                          </div>
+                          <div class="pop-up-table-more__item flex gap-10">
+                            <p>
+                              <img src="img/dashboard/edit.svg" alt="edit" />
+                            </p>
+                            <p>Редактировать</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>40</td>
+                    <td>
+                      <div class="dashboard__table-more">
+                        <div>
+                          <img src="img/dashboard/more.svg" alt="more" />
+                        </div>
+                        <div class="pop-up-table-more">
+                          <div
+                            class="pop-up-table-more__item flex flex-y-center gap-10"
+                          >
+                            <p>
+                              <img
+                                src="img/dashboard/delete.svg"
+                                alt="delete"
+                              />
+                            </p>
+                            <p>Удалить</p>
+                          </div>
+                          <div class="pop-up-table-more__item flex gap-10">
+                            <p>
+                              <img src="img/dashboard/edit.svg" alt="edit" />
+                            </p>
+                            <p>Редактировать</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="dashboard__footer">
+            <div
+              class="dashboard__footer-flex flex flex-x-end flex-y-center mr-4"
+            >
+              <div class="flex gap-4 mr-4">
+                <p>1-20</p>
+                <p>из</p>
+                <p>100</p>
+              </div>
+              <div class="flex gap-20">
+                <div class="icon">
+                  <img src="img/dashboard/prev.svg" alt="prev" />
+                </div>
+                <div class="icon">
+                  <img src="img/dashboard/next.svg" alt="next" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+@use "sass:math";
+
+// Подключить если есть локальные файлы шрифтов
+
+// Подключение иконочных шрифтов =====================================================================================================
+// Подключить если есть файл иконочного шрифта
+@import "_fonts";
+
+// Шрифт по умолчанию ================================================================================================================
+$fontFamily: "Inter";
+$fontSize: rem(14); // где 14(px) - размер шрифта по умолчанию из макета
+
+//Основные цвета
+$mainColor: var(--back); // Цвет шрифта по умолчанию
+
+// Обнуление и обшие параметры =======================================================================================================
+@import "_null";
+@import "_colors";
+
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  // Скролл заблокирован
+  ._lock & {
+    overflow: hidden;
+    touch-action: none;
+  }
+}
+
+.wrapper {
+  min-height: 100vh;
+  // background: #eff0f4;
+}
+// Подключение базовых стилей, шаблонов (заготовок) и вспомагательных классов
+// Для подключения/отключения конкретных стилей смотры base.scss
+
+@import "_grid";
+@import "_mixins";
+@import "_base";
+@import "_pop-up-base";
+@import "_input";
+@import "_login";
+@import "_dashboard";
+@import "_button.scss";
+@import "_sidebar.scss";
+@import "_d-drop.scss";
+@import "_dashboard-header.scss";
+@import "_dropdown-menu";
+@import "_pop-up-table-more";
+@import "_icon.scss";
+@import "_dashboard-flight.scss";
+@import "_dashboard-directions.scss";
+@import "_pop-up-in.scss";
+@import "_pop-up-input.scss";
+@import "_error-box.scss";

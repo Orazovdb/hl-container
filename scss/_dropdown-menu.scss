@@ -1,0 +1,86 @@
+.dropdown-menu {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(15px);
+  transition: 0.3s ease 0s;
+  max-height: 188px;
+  overflow-y: auto;
+  &__list {
+  }
+
+  &__flex {
+    padding: 10px 14px;
+  }
+
+  &__input {
+    padding: 12px 14px;
+    border-bottom: 0.6px solid #bdc0c3;
+    position: relative;
+  }
+
+  &__icon {
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translateY(-50%);
+  }
+  &__item {
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    transition: all 0.3s ease 0s;
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 120%;
+      color: #363853;
+    }
+    &:hover {
+      background-color: #f4f7f9;
+    }
+    &:first-child {
+      border-radius: 8px 8px 0px 0px;
+    }
+    &:last-child {
+      border-radius: 0px 0px 8px 8px;
+    }
+    &.active {
+      background-color: #f4f7f9;
+      .tick {
+        border: none;
+        img {
+          display: block;
+        }
+      }
+    }
+  }
+}
+.input-dropdown {
+  padding: 8px 10px;
+  border: 1px solid #bdc0c3;
+  border-radius: 8px;
+  width: 100%;
+  transition: all 0.3s ease 0s;
+  &:focus {
+    border: 1px solid #14509d;
+  }
+}
+.tick {
+  width: 15px;
+  height: 15px;
+  border: 1.5px solid #14509d;
+  background-color: transparent;
+  border-radius: 4px;
+  img {
+    display: none;
+  }
+}

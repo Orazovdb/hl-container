@@ -1,0 +1,19 @@
+@use "sass:math";
+$column_count: 12;
+// $row_count: 12;
+$column_gap: 20;
+.admin-row {
+  display: grid;
+  gap: #{$column_gap}px;
+  grid-template-columns: repeat($column_count, 1fr);
+  // grid-template-rows: repeat($row_count, 1fr);
+}
+
+@for $i from 1 through $column_count {
+  .admin-col-#{$i} {
+    grid-column-start: span $i;
+  }
+  .admin-row-#{$i} {
+    grid-row-start: span $i;
+  }
+}

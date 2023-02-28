@@ -1,0 +1,24 @@
+.pop-up-input {
+    width: 100%;
+    position: relative;
+    &__input {
+        padding: 14px;
+        background: #f4f7f9;
+        border-radius: 8px;
+        width: 100%;
+        &::placeholder {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 120%;
+            color: #bdc0c3;
+        }
+    }
+
+    &__icon {
+        position: absolute;
+        top: 50%;
+        right: 14px;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+}

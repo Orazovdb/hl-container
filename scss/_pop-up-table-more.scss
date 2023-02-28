@@ -1,0 +1,20 @@
+.pop-up-table-more {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  box-shadow: 0px 4px 30px rgba(170, 169, 184, 0.4);
+  border-radius: 8px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease 0s;
+  transform: translateY(15px);
+  &__item {
+    background: #fbfbfb;
+    padding: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    &:hover {
+      background: #f4f7f9;
+    }
+  }
+}
