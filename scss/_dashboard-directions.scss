@@ -1,9 +1,13 @@
-.dashboard-directions {
-    display: grid;
-    grid-template-columns: 45% 55%;
+.dashboard-direction {
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
+}
+
+.dashboard-directions {
+    display: grid;
+    grid-template-columns: 45% 55%;
+
     &__left {
         padding-right: 30px;
         border-right: 1px solid rgba(20, 80, 157, 0.2);
@@ -99,5 +103,12 @@
         &:not(:last-child) {
             margin-bottom: 4px;
         }
+    }
+
+    &__p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 120%;
+        color: #363853;
     }
 }

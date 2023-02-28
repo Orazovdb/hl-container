@@ -147,6 +147,11 @@
           </div>
           <div class="dashboard__body height">
             <div class="dashboard__flight dashboard-flight">
+              <div class="icon-edit">
+                <div class="icon flex flex-x-end">
+                  <img src="img/dashboard/header/edit-directions.svg" alt="" />
+                </div>
+              </div>
               <div class="dashboard-flight__body">
                 <div
                   class="dashboard-flight__item item-dashboard-flight active"
@@ -202,91 +207,211 @@
                 </div>
               </div>
               <div class="flex flex-x-end">
-                <button class="d-button next-button">Далее</button>
-              </div>
-            </div>
-            <div class="dashboard__directions dashboard-directions">
-              <div class="dashboard-directions__left">
-                <div class="dashboard-directions__top">
-                  <p class="dashboard-directions__title">Направление:</p>
-                  <p class="dashboard-directions__text">Mary(krasnavod)-Baku</p>
-                </div>
-                <div class="dashboard-directions__table">
-                  <table>
-                    <thead>
-                      <tr>
-                        <th>№</th>
-                        <th>Причина</th>
-                        <th>Цена</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>1</td>
-                        <td>Yol haky</td>
-                        <td>100$</td>
-                      </tr>
-                      <tr>
-                        <td>2</td>
-                        <td>Yol haky</td>
-                        <td>100$</td>
-                      </tr>
-                      <tr>
-                        <td>3</td>
-                        <td>Yol haky</td>
-                        <td>100$</td>
-                      </tr>
-                      <tr>
-                        <td>4</td>
-                        <td>Yol haky</td>
-                        <td>100$</td>
-                      </tr>
-                    </tbody>
-                    <tfoot>
-                      <tr>
-                        <td colspan="2">Итого:</td>
-                        <td>400$</td>
-                      </tr>
-                    </tfoot>
-                  </table>
-                </div>
-              </div>
-              <div class="dashboard-directions__right">
-                <div class="dashboard-directions__top">
-                  <p class="dashboard-directions__title">Направление:</p>
-                  <div class="dashboard-directions__icon">
-                    <img
-                      src="img/dashboard/header/edit-directions.svg"
-                      alt="edit"
-                    />
+                <div class="relative">
+                  <button class="d-button next-button">Далее</button>
+                  <div class="calendar">
+                    <div class="calendar__month">
+                      <div class="d-drop">
+                        <div class="d-drop__item none">
+                          <p class="d-drop__text none">October 2021</p>
+                          <button class="d-drop__button">
+                            <img
+                              src="img/dashboard/arrow-down.svg"
+                              alt="icon"
+                            />
+                          </button>
+                          <nav class="d-drop__dropdown-menu dropdown-menu">
+                            <ul class="dropdown-menu__list">
+                              <li class="dropdown-menu__item">
+                                <p>20</p>
+                                <button class="tick">
+                                  <img
+                                    src="img/dashboard/header/tick.svg"
+                                    alt="tick"
+                                  />
+                                </button>
+                              </li>
+                              <li class="dropdown-menu__item">
+                                <p>40</p>
+                                <button class="tick">
+                                  <img
+                                    src="img/dashboard/header/tick.svg"
+                                    alt="tick"
+                                  />
+                                </button>
+                              </li>
+                              <li class="dropdown-menu__item">
+                                <p>45</p>
+                                <button class="tick">
+                                  <img
+                                    src="img/dashboard/header/tick.svg"
+                                    alt="tick"
+                                  />
+                                </button>
+                              </li>
+                            </ul>
+                          </nav>
+                        </div>
+                      </div>
+                      <div class="calendar__icons">
+                        <div class="icon">
+                          <img src="img/dashboard/Back.svg" alt="prev" />
+                        </div>
+                        <div class="icon">
+                          <img src="img/dashboard/Next2.svg" alt="next" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="calendar__week">
+                      <div class="calendar__item-week">M</div>
+                      <div class="calendar__item-week">T</div>
+                      <div class="calendar__item-week">W</div>
+                      <div class="calendar__item-week">T</div>
+                      <div class="calendar__item-week">F</div>
+                      <div class="calendar__item-week">S</div>
+                      <div class="calendar__item-week">S</div>
+                    </div>
+                    <div class="calendar__days">
+                      <div class="calendar__item-days"></div>
+                      <div class="calendar__item-days"></div>
+                      <div class="calendar__item-days"></div>
+                      <div class="calendar__item-days"></div>
+                      <div class="calendar__item-days"></div>
+                      <div class="calendar__item-days"></div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days day-active">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">1</div>
+                      <div class="calendar__item-days">27</div>
+                      <div class="calendar__item-days day-now">28</div>
+                    </div>
+                    <button class="d-button calendar-btn">Добавить</button>
                   </div>
                 </div>
-                <div class="dashboard-directions__content-p">
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem Ipsum
-                    passages, and more recently with desktop publishing software
-                    like Aldus PageMaker including versions of Lorem Ipsum
-                  </p>
-                  <p class="dashboard-directions__content-p">
-                    Lorem Ipsum is simply dummy text of the printing
-                  </p>
-                  <p class="dashboard-directions__content-p-bold">
-                    1960s with the release of Letraset sheets containing Lorem
-                    Ipsum passages
-                  </p>
-                  <p class="dashboard-directions__content-p">
-                    software like Aldus PageMaker including versions of Lorem
-                    Ipsum
-                  </p>
+              </div>
+            </div>
+            <div class="dashboard__directions dashboard-direction">
+              <div class="dashboard-direction__top flex flex-sb mb-2">
+                <p class="dashboard-directions__title">Калькуляция:</p>
+                <div class="icon">
+                  <img
+                    src="img/dashboard/header/edit-directions.svg"
+                    alt="edit"
+                  />
                 </div>
               </div>
+              <div class="dashboard-directions">
+                <div class="dashboard-directions__left">
+                  <div class="dashboard-directions__table">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>№</th>
+                          <th>Причина</th>
+                          <th>Цена</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>1</td>
+                          <td>Yol haky</td>
+                          <td>100$</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>Yol haky</td>
+                          <td>100$</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>Yol haky</td>
+                          <td>100$</td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td>Yol haky</td>
+                          <td>100$</td>
+                        </tr>
+                      </tbody>
+                      <tfoot>
+                        <tr>
+                          <td colspan="2">Итого:</td>
+                          <td>400$</td>
+                        </tr>
+                      </tfoot>
+                    </table>
+                  </div>
+                </div>
+                <div class="dashboard-directions__right">
+                  <div class="dashboard-directions__top">
+                    <p class="dashboard-directions__title">Направление:</p>
+                    <p class="dashboard-directions__text">
+                      Mary(krasnavod)-Baku
+                    </p>
+                  </div>
+                  <div class="dashboard-directions__top">
+                    <p class="dashboard-directions__title">Направление:</p>
+                    <p class="dashboard-directions__text">
+                      Mary(krasnavod)-Baku
+                    </p>
+                  </div>
+                  <div class="dashboard-directions__top">
+                    <p class="dashboard-directions__title">Направление:</p>
+                    <p class="dashboard-directions__text">
+                      Mary(krasnavod)-Baku
+                    </p>
+                  </div>
+                  <div class="dashboard-directions__top">
+                    <p class="dashboard-directions__title">Направление:</p>
+                    <p class="dashboard-directions__text">
+                      Mary(krasnavod)-Baku
+                    </p>
+                  </div>
+                  <div class="dashboard-directions__top">
+                    <p class="dashboard-directions__title">Направление:</p>
+                    <p class="dashboard-directions__text">
+                      Mary(krasnavod)-Baku
+                    </p>
+                  </div>
+                  <div class="dashboard-directions__top">
+                    <p class="dashboard-directions__title">Направление:</p>
+                    <p class="dashboard-directions__text">
+                      Mary(krasnavod)-Baku
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <p class="dashboard-directions__title mt-2 pb-5">Калькуляция:</p>
+              <p class="dashboard-directions__p">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
             </div>
           </div>
         </div>

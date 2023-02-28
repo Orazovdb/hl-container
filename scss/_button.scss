@@ -37,6 +37,7 @@
   }
   &.next-button {
     width: 84px;
+    position: relative;
   }
   &.pop-up-button-cancel {
     background-color: transparent;
@@ -51,6 +52,17 @@
   }
   &.error-page {
     width: 240px;
+  }
+  &.calendar-btn {
+    background-color: #fff;
+    border: 1px solid var(--primary);
+    border-radius: 8px;
+    color: var(--primary);
+    transition: 0.3s ease 0s;
+    &:hover {
+      background-color: var(--primary);
+      color: #fff;
+    }
   }
 }
 .search-button {
