@@ -813,6 +813,7 @@ body {
 .dashboard__table-more {
   position: relative;
   cursor: pointer;
+  z-index: 5;
 }
 .dashboard__table-more.active .pop-up-table-more {
   opacity: 1;
@@ -1552,6 +1553,13 @@ body {
   bottom: 0;
 }
 
+.calendar-active.active .calendar {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0px);
+}
+
 .calendar {
   position: absolute;
   width: 268px;
@@ -1562,6 +1570,11 @@ body {
   border-radius: 8px;
   top: 48px;
   right: 0;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: 0.3s ease 0s;
+  transform: translateY(15px);
 }
 .calendar__month {
   display: flex;
