@@ -15,6 +15,10 @@
       padding: 0px;
       color: #363853;
     }
+    &.notsb {
+      justify-content: flex-start;
+      gap: 30px;
+    }
     &.active {
       .d-drop__button {
         rotate: -180deg;

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Hazar logistika</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="dashboard">
+        <div class="dashboard__sidebar sidebar">
+          <div class="sidebar__container">
+            <button class="sidebar__open-close">
+              <img src="img/sidebar/open-close-sidebar.svg" alt="" />
+            </button>
+            <div class="sidebar__logo mb-5">
+              <img src="img/sidebar/logo-big.svg" alt="logo" />
+            </div>
+            <div class="sidebar__logo-mini mb-5">
+              <img src="img/sidebar/logo-mini.svg" alt="logo" />
+            </div>
+            <nav class="sidebar__menu">
+              <ul class="sidebar__list">
+                <li class="sidebar__item">
+                  <div class="sidebar__icon">
+                    <img src="img/sidebar/01.svg" alt="" />
+                  </div>
+                  <div class="sidebar__text">Дашборд</div>
+                </li>
+                <li class="sidebar__item">
+                  <div class="sidebar__icon">
+                    <img src="img/sidebar/02.svg" alt="" />
+                  </div>
+                  <div class="sidebar__text">контейнер</div>
+                </li>
+                <div class="sidebar__item-wrapper">
+                  <li class="sidebar__item">
+                    <div class="sidebar__icon">
+                      <img src="img/sidebar/03.svg" alt="" />
+                    </div>
+                    <div class="sidebar__text">База</div>
+                    <div class="sidebar__arrow">
+                      <img src="img/sidebar/righ.svg" alt="icon" />
+                    </div>
+                  </li>
+                  <ul class="sidebar__sub-list">
+                    <li class="sidebar__sub-item">
+                      <div class="sidebar__sub-icon">
+                        <img src="img/sidebar/04.svg" alt="" />
+                      </div>
+                      <p class="sidebar__sub-text">Salam</p>
+                    </li>
+                    <li class="sidebar__sub-item">
+                      <div class="sidebar__sub-icon">
+                        <img src="img/sidebar/04.svg" alt="" />
+                      </div>
+                      <p class="sidebar__sub-text">Salam</p>
+                    </li>
+                    <li class="sidebar__sub-item">
+                      <div class="sidebar__sub-icon">
+                        <img src="img/sidebar/04.svg" alt="" />
+                      </div>
+                      <p class="sidebar__sub-text">Salam</p>
+                    </li>
+                    <li class="sidebar__sub-item">
+                      <div class="sidebar__sub-icon">
+                        <img src="img/sidebar/04.svg" alt="" />
+                      </div>
+                      <p class="sidebar__sub-text">Salam</p>
+                    </li>
+                  </ul>
+                </div>
+                <li class="sidebar__item">
+                  <div class="sidebar__icon">
+                    <img src="img/sidebar/04.svg" alt="" />
+                  </div>
+                  <div class="sidebar__text">История</div>
+                </li>
+                <div class="sidebar__item-wrapper">
+                  <li class="sidebar__item">
+                    <div class="sidebar__icon">
+                      <img src="img/sidebar/05.svg" alt="" />
+                    </div>
+                    <div class="sidebar__text">Корзина</div>
+                    <div class="sidebar__arrow">
+                      <img src="img/sidebar/righ.svg" alt="icon" />
+                    </div>
+                  </li>
+                  <ul class="sidebar__sub-list">
+                    <li class="sidebar__sub-item">
+                      <div class="sidebar__sub-icon">
+                        <img src="img/sidebar/04.svg" alt="" />
+                      </div>
+                      <p class="sidebar__sub-text">Salam</p>
+                    </li>
+                    <li class="sidebar__sub-item">
+                      <div class="sidebar__sub-icon">
+                        <img src="img/sidebar/04.svg" alt="" />
+                      </div>
+                      <p class="sidebar__sub-text">Salam</p>
+                    </li>
+                    <li class="sidebar__sub-item">
+                      <div class="sidebar__sub-icon">
+                        <img src="img/sidebar/04.svg" alt="" />
+                      </div>
+                      <p class="sidebar__sub-text">Salam</p>
+                    </li>
+                    <li class="sidebar__sub-item">
+                      <div class="sidebar__sub-icon">
+                        <img src="img/sidebar/04.svg" alt="" />
+                      </div>
+                      <p class="sidebar__sub-text">Salam</p>
+                    </li>
+                  </ul>
+                </div>
+              </ul>
+            </nav>
+            <div class="sidebar__bottom">
+              <div class="sidebar__icon-left">
+                <img src="img/sidebar/back.svg" alt="" />
+              </div>
+              <div class="sidebar__bottom-content">
+                <p>Begench Muhammetberdiyew</p>
+                <p>Admin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dashboard__dashboard">
+          <div class="dashboard__header dashboard-header">
+            <div class="dashboard-header__left">
+              <div class="flex gap-10">
+                <div class="d-button body-header active">Завершен 76</div>
+                <div class="d-button body-header">В пути 124</div>
+                <div class="d-button body-header">На складе 36</div>
+              </div>
+            </div>
+            <div class="dashboard-header__right">
+              <button class="d-button">
+                <p>Добавить</p>
+                <p><img src="img/dashboard/header/add.svg" alt="add" /></p>
+              </button>
+            </div>
+          </div>
+          <div class="dashboard__body">
+            <div class="dashboard__table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>№</th>
+                    <th>
+                      <div class="d-drop__item table-item notsb">
+                        <p class="d-drop__text">№ Контейнера</p>
+                        <button class="d-drop__button">
+                          <img
+                            src="img/dashboard/header/icon-down.svg"
+                            alt="icon"
+                          />
+                        </button>
+                        <nav class="d-drop__dropdown-menu dropdown-menu">
+                          <ul class="dropdown-menu__list">
+                            <div class="dropdown-menu__input">
+                              <input type="text" class="input-dropdown" />
+                            </div>
+                            <li class="dropdown-menu__item">
+                              <p>HAZU0000855</p>
+                              <button class="tick">
+                                <img
+                                  src="img/dashboard/header/tick.svg"
+                                  alt="tick"
+                                />
+                              </button>
+                            </li>
+                            <li class="dropdown-menu__item">
+                              <p>HAZU0000855</p>
+                              <button class="tick">
+                                <img
+                                  src="img/dashboard/header/tick.svg"
+                                  alt="tick"
+                                />
+                              </button>
+                            </li>
+                            <li class="dropdown-menu__item active">
+                              <p>HAZU0000855</p>
+                              <button class="tick">
+                                <img
+                                  src="img/dashboard/header/tick.svg"
+                                  alt="tick"
+                                />
+                              </button>
+                            </li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </th>
+                    <th>
+                      <div class="d-drop__item table-item notsb">
+                        <p class="d-drop__text">Размер</p>
+                        <button class="d-drop__button">
+                          <img
+                            src="img/dashboard/header/icon-down.svg"
+                            alt="icon"
+                          />
+                        </button>
+                        <nav class="d-drop__dropdown-menu dropdown-menu">
+                          <ul class="dropdown-menu__list">
+                            <li class="dropdown-menu__item">
+                              <p>20</p>
+                              <button class="tick">
+                                <img
+                                  src="img/dashboard/header/tick.svg"
+                                  alt="tick"
+                                />
+                              </button>
+                            </li>
+                            <li class="dropdown-menu__item">
+                              <p>40</p>
+                              <button class="tick">
+                                <img
+                                  src="img/dashboard/header/tick.svg"
+                                  alt="tick"
+                                />
+                              </button>
+                            </li>
+                            <li class="dropdown-menu__item">
+                              <p>45</p>
+                              <button class="tick">
+                                <img
+                                  src="img/dashboard/header/tick.svg"
+                                  alt="tick"
+                                />
+                              </button>
+                            </li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </th>
+                    <th>
+                      <div class="d-drop__item table-item notsb">
+                        <p class="d-drop__text">Место нахождения</p>
+                        <button class="d-drop__button">
+                          <img
+                            src="img/dashboard/header/icon-down.svg"
+                            alt="icon"
+                          />
+                        </button>
+                        <nav class="d-drop__dropdown-menu dropdown-menu">
+                          <ul class="dropdown-menu__list">
+                            <div class="dropdown-menu__input">
+                              <input type="text" class="input-dropdown" />
+                              <div class="dropdown-menu__icon">
+                                <img
+                                  src="img/dashboard/header/search-dropdown.svg"
+                                  alt="search"
+                                />
+                              </div>
+                            </div>
+                            <li class="dropdown-menu__item">
+                              <p>Bender-Abbas</p>
+                              <button class="tick">
+                                <img
+                                  src="img/dashboard/header/tick.svg"
+                                  alt="tick"
+                                />
+                              </button>
+                            </li>
+                            <li class="dropdown-menu__item">
+                              <p>Turkmenbashi</p>
+                              <button class="tick">
+                                <img
+                                  src="img/dashboard/header/tick.svg"
+                                  alt="tick"
+                                />
+                              </button>
+                            </li>
+                            <li class="dropdown-menu__item">
+                              <p>Poti</p>
+                              <button class="tick">
+                                <img
+                                  src="img/dashboard/header/tick.svg"
+                                  alt="tick"
+                                />
+                              </button>
+                            </li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>HAZU0000855</td>
+                    <td>40</td>
+                    <td>
+                      <p class="flex flex-x-start">Mary</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>HAZU0000855</td>
+                    <td>40</td>
+                    <td>
+                      <p class="flex flex-x-start">Mary</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>HAZU0000855</td>
+                    <td>40</td>
+                    <td>
+                      <p class="flex flex-x-start">Mary</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>HAZU0000855</td>
+                    <td>40</td>
+                    <td>
+                      <p class="flex flex-x-start">Mary</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>HAZU0000855</td>
+                    <td>40</td>
+                    <td>
+                      <p class="flex flex-x-start">Mary</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>HAZU0000855</td>
+                    <td>40</td>
+                    <td>
+                      <p class="flex flex-x-start">Mary</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>HAZU0000855</td>
+                    <td>40</td>
+                    <td>
+                      <p class="flex flex-x-start">Mary</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>HAZU0000855</td>
+                    <td>40</td>
+                    <td>
+                      <p class="flex flex-x-start">Mary</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>HAZU0000855</td>
+                    <td>40</td>
+                    <td>
+                      <p class="flex flex-x-start">Mary</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>HAZU0000855</td>
+                    <td>40</td>
+                    <td>
+                      <p class="flex flex-x-start">Mary</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>HAZU0000855</td>
+                    <td>40</td>
+                    <td>
+                      <p class="flex flex-x-start">Mary</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>HAZU0000855</td>
+                    <td>40</td>
+                    <td>
+                      <p class="flex flex-x-start">Mary</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>HAZU0000855</td>
+                    <td>40</td>
+                    <td>
+                      <p class="flex flex-x-start">Mary</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>HAZU0000855</td>
+                    <td>40</td>
+                    <td>
+                      <p class="flex flex-x-start">Mary</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>HAZU0000855</td>
+                    <td>40</td>
+                    <td>
+                      <p class="flex flex-x-start">Mary</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="dashboard__footer">
+            <div
+              class="dashboard__footer-flex flex flex-x-end flex-y-center mr-4"
+            >
+              <div class="flex gap-4 mr-4">
+                <p>1-20</p>
+                <p>из</p>
+                <p>100</p>
+              </div>
+              <div class="flex gap-20">
+                <div class="icon">
+                  <img src="img/dashboard/prev.svg" alt="prev" />
+                </div>
+                <div class="icon">
+                  <img src="img/dashboard/next.svg" alt="next" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

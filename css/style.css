@@ -144,6 +144,7 @@ body {
 
 .wrapper {
   min-height: 100vh;
+  overflow: hidden;
 }
 
 .admin-row {
@@ -760,7 +761,7 @@ body {
 }
 .dashboard__body table thead tr.tal th:last-child {
   text-align: center;
-  width: 30px;
+  width: 40px;
 }
 .dashboard__body table thead tr th {
   padding: 14px 20px;
@@ -773,6 +774,7 @@ body {
 }
 .dashboard__body table tbody tr td:first-child {
   text-align: center;
+  width: 40px;
 }
 .dashboard__body table tbody tr td:last-child {
   text-align: center;
@@ -864,6 +866,20 @@ body {
 }
 .d-button.search-button:hover .search-button__search-default {
   display: none;
+}
+.d-button.body-header {
+  background-color: #f4f7f9;
+  width: 135px;
+  color: var(--primary);
+  transition: 0.3s ease 0s;
+}
+.d-button.body-header:hover {
+  background-color: var(--primary);
+  color: #fff;
+}
+.d-button.body-header.active {
+  background-color: var(--primary);
+  color: #fff;
 }
 .d-button.prev-button {
   width: 44px;
@@ -1083,6 +1099,10 @@ body {
   padding: 0px;
   color: #363853;
 }
+.d-drop__item.notsb {
+  justify-content: flex-start;
+  gap: 30px;
+}
 .d-drop__item.active .d-drop__button {
   rotate: -180deg;
 }
@@ -1147,6 +1167,7 @@ body {
   transition: 0.3s ease 0s;
   max-height: 188px;
   overflow-y: auto;
+  z-index: 15;
 }
 .dropdown-menu__flex {
   padding: 10px 14px;
