@@ -58,7 +58,7 @@
             font-weight: 400;
             &:first-child {
               text-align: center;
-              width: 40px;
+              max-width: 300px;
             }
             &:last-child {
               text-align: center;
@@ -66,6 +66,25 @@
           }
           &:hover {
             background: #fbfbfb;
+          }
+        }
+        &.default {
+          td {
+            &:first-child {
+              width: 100px;
+            }
+          }
+        }
+      }
+      tfoot {
+        background: #ecf2f8;
+        tr {
+          td {
+            p {
+              &:not(:last-child) {
+                margin-bottom: 10px;
+              }
+            }
           }
         }
       }

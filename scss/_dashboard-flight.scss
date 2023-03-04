@@ -1,5 +1,5 @@
 .dashboard-flight {
-	padding: 20px 40px;
+	padding: 20px;
 	background-color: #fff;
 	border-radius: 8px;
 	position: relative;
@@ -73,6 +73,7 @@
 
 	&__circle {
 	}
+	
 
 	&__data-bottom {
 		font-weight: 400;
@@ -93,5 +94,12 @@
 		line-height: 120%;
 		color: #363853;
 		display: none;
+	}
+}
+.icon-ed {
+	cursor: pointer;
+	display: none;
+	&.active {
+		display: block;
 	}
 }

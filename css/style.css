@@ -774,13 +774,22 @@ body {
 }
 .dashboard__body table tbody tr td:first-child {
   text-align: center;
-  width: 40px;
+  max-width: 300px;
 }
 .dashboard__body table tbody tr td:last-child {
   text-align: center;
 }
 .dashboard__body table tbody tr:hover {
   background: #fbfbfb;
+}
+.dashboard__body table tbody.default td:first-child {
+  width: 100px;
+}
+.dashboard__body table tfoot {
+  background: #ecf2f8;
+}
+.dashboard__body table tfoot tr td p:not(:last-child) {
+  margin-bottom: 10px;
 }
 .dashboard__table {
   height: 100%;
@@ -914,6 +923,11 @@ body {
 .d-button.calendar-btn:hover {
   background-color: var(--primary);
   color: #fff;
+}
+.d-button.ready-btn {
+  background-color: rgba(255, 188, 16, 0.1019607843);
+  width: 136px;
+  color: #ffbc10;
 }
 
 .search-button__search {
@@ -1264,7 +1278,7 @@ body {
 }
 
 .dashboard-flight {
-  padding: 20px 40px;
+  padding: 20px;
   background-color: #fff;
   border-radius: 8px;
   position: relative;
@@ -1347,6 +1361,14 @@ body {
   line-height: 120%;
   color: #363853;
   display: none;
+}
+
+.icon-ed {
+  cursor: pointer;
+  display: none;
+}
+.icon-ed.active {
+  display: block;
 }
 
 .dashboard-direction {
